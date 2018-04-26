@@ -4,15 +4,6 @@
 *  fizzbuzzbox with proper css.
 *
 *****************************************************/
-
-    function getClassList ( x ){
-        let classes = [];
-        if ( isEven(x) ) classes.push("isEven");
-        if ( isProd3(x) ) classes.push("isProd3");
-        if ( isPrime(x) ) classes.push("isPrime");
-        return classes.join(" ");
-    }
-
     function createSpan(j) {
         let span = document.createElement("span");
         span.textContent = j.toString();
