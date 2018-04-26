@@ -1,0 +1,28 @@
+/* Style for main divs. Colors, fonts, div sizes, background-colors, etc */
+
+#fizzbuzzbox {
+    padding: 10%;
+    width: 60vw;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+/* Styles to add to number <span> in order to complete the assessment. */
+
+.isEven {
+    font-weight: bold;
+}
+
+.isProd3 {
+    color: red;
+}
+
+.isPrime {
+    border: 1px dashed grey;
+    border-radius: 5px;
+}
+
+/* Styles for fun */
+/**/
